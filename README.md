@@ -1,6 +1,14 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Используемые библиотеки
+Для вебкамеры  "react-webcam"
+
+Для плеера  "react-player"
+
+Для записи "react-media-recorder"
+
+Для обработки видел 'ffmpeg'
+
+Для сохранения 'file-saver'
 
 ## Available Scripts
 
