@@ -1,0 +1,90 @@
+
+.block {
+    display: flex;
+    left: 300px;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    z-index: 200;
+}
+
+
+.video:fullscreen {
+    display: flex;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.youtubeVideo {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.webCamera {
+    display: flex;
+    position: fixed;
+    max-width: 250px;
+    max-height: 140px;
+    top: 10px;
+    right: 270px;
+    z-index: 2147483647;
+}
+
+.webCamera:fullscreen {
+    display: flex;
+    position: absolute;
+    max-width: 250px;
+    max-height: 140px;
+    top: 0px;
+    z-index: 2147483647;
+}
+
+.loaderText {
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    color: #676363;
+    font-size: 50px;
+}
+
+
+.btnStop {
+    display: flex;
+    position: fixed;
+    bottom: 90px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 45px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+}
+
+.btnStart {
+    display: flex;
+    position: fixed;
+    bottom: 90px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 45px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+}
